@@ -2,6 +2,7 @@ ipython[notebook]
 coveralls
 nose2
 selenium
+-e git+https://github.com/yuvipanda/jupyterhub-dummy-authenticator.git#egg=dummyauthenticator
 jupyterhub
 dockerspawner
 GitPython==1.0.1
