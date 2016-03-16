@@ -1,9 +1,11 @@
-import os
+# running locally with docker-machine
+# for example on Mac or Windows
 import everware
+import os
 
 
 c = get_config()
-load_subconfig('base_config.py')
+load_subconfig('etc/base_config.py')
 
 authenticator = everware.GitHubOAuthenticator
 c.JupyterHub.authenticator_class = 'everware.GitHubOAuthenticator'

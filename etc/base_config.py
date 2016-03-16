@@ -1,9 +1,5 @@
-import os
-import everware
-import jupyterhub.handlers.pages
-import jupyterhub.handlers.base
-
-
+# Basic config used by more specialised configurations
+# contains settings that are independent of environment
 c = get_config()
 
 # spawn with custom docker containers
